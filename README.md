@@ -49,14 +49,23 @@ pi-blaster creates a special file (FIFO) in `/dev/pi-blaster`. Any application o
 To set the value of a PIN, you write a command to `/dev/pi-blaster` in the form `<GPIOPinName>=<value>` where `<value>` must be a number between 0 and 1 (included).
 
       GPIO number   Pin in P1 header
+          2              P1-3
+          3              P1-5
           4              P1-7
+          14             P1-8
+          15             P1-10
           17             P1-11
           18             P1-12
-          21             P1-13
+          19             P1-35
+          20             P1-38
+          21             P1-40
           22             P1-15
           23             P1-16
           24             P1-18
           25             P1-22
+          27             P1-13
+};
+
 
 Examples: Turning PWM pins ON
   * To completely turn off GPIO pin 17:
