@@ -39,21 +39,21 @@ static char VERSION[] = "0.1.0";
 // Created new known_pins with raspberry pi list of pins
 // to compare against the param received.
 static uint8_t known_pins[] = {
-        2,
-        3,
-        4,      // P1-7
+        6,
+        9,
+        10,      // P1-7
+        11,
+        13,
         14,
-        15,
-        17,     // P1-11
-        18,     // P1-12
-        19,
-        20,
-        27,     // P1-13
-        21,     // P1-13
+        15,     // P1-11
+        16,     // P1-12
+        17,
+        18,
+        19,     // P1-13
+        20,     // P1-13
         22,     // P1-15
-        23,     // P1-16
-        24,     // P1-18
-        25     // P1-22
+        26,     // P1-18
+        27     // P1-22
 };
 
 
@@ -788,4 +788,3 @@ main(int argc, char **argv)
 
 	return 0;
 }
-
